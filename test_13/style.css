@@ -1,0 +1,51 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 520px;
+	min-height: 270px;
+	padding: 20px;
+	font-size: 14px;
+	line-height: 1.5;
+	font-family: Arial, sans-serif;
+	color: white;
+	background-color: #3a78a1;
+	background-image: url("/assets/course9/grid.png");
+	background-repeat: repeat;
+	background-position: -80px -80px;
+}
+
+.column {
+	width: 76px;
+	margin-bottom: 10px;
+	margin-right: 13px;
+	padding: 10px;
+	background: rgba(0, 255, 255, 0.2);
+	border: 2px solid white;
+	float: left;
+}
+
+.table {
+	clear: both;
+	display: table;
+	border-collapse: collapse;
+}
+
+.row {
+	display: table-row;
+}
+
+.cell {
+	width: 96px;
+	padding: 5px 10px;
+	background: rgba(0, 255, 255, 0.2);
+	border: 2px solid white;
+	display: table-cell;
+}
+
+.col-3 {
+	display: none;
+}
