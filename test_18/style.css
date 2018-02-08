@@ -1,0 +1,126 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*
+	Цвета:
+	#34495e – мокрый асфальт
+	#c0392b – красный
+	#3498DB – синий
+*/
+
+body {
+	/* width: 450px; */
+	height: 335px;
+	font-family: "Arial", sans-serif;
+	font-size: 10px;
+	color: white;
+}
+
+.container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main-header {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #34495e;
+	padding: 10px 0;
+}
+
+.positioner {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	height: 25px;
+	padding: 5px;
+	background-color: #c0392b;
+}
+
+.main-menu {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #3498DB;
+}
+
+.menu {
+	height: 25px;
+	padding: 5px;
+}
+
+.promo1 {
+	width: 160px;
+	height: 50px;
+	float: left;
+	padding: 5px;
+	background-color: #c0392b;
+}
+
+.promo2 {
+	width: 160px;
+	height: 50px;
+	float: right;
+	padding: 5px;
+	background-color: #c0392b;
+}
+
+.main-content {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.left {
+	width: 60px;
+	height: 100px;
+	float: left;
+	padding: 5px;
+	margin-right: 10px;
+	background-color: #3498DB;
+}
+
+.main {
+	width: 180px;
+	height: 100px;
+	float: left;
+	padding: 5px;
+	background-color: #3498DB;
+}
+
+.right {
+	width: 60px;
+	height: 100px;
+	float: right;
+	padding: 5px;
+	margin-left: 10px;
+	background-color: #3498DB;
+}
+
+.main-footer {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background-color: #34495e;
+}
+
+.footer {
+	height: 25px;
+	padding: 5px;
+}
