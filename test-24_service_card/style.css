@@ -1,0 +1,55 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 280px;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-size: 14px;
+	font-family: "Arial", sans-serif;
+	line-height: 1.2;
+	background: #ecf0f1;
+}
+
+.card {	
+	width: 200px;
+	margin: 0 auto;
+	padding: 20px;
+	color: white;
+	background-color: #1abc9c;
+}
+
+.card h1 {
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.card p {
+	margin-bottom: 25px;
+}
+
+.card a {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+	background: #16a085 url("sprite.png");
+}
+
+.card .fb {
+	background-position: -1px -6px;
+}
+
+.card .vk {
+	background-position: -80px -3px;
+}
+
+.card .inst {
+	background-position: -37px -5px;
+}
